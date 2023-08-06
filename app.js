@@ -11,7 +11,7 @@ function generateEquation() {
     // Sélectionne un opérateur aléatoire
     const operators = ["+", "-", "*", "/"]; 
     const operator = operators[Math.floor(Math.random() * operators.length)];
-    let equation = num1 + " " + operator + " " + num2 + " = ?";
+    let equation = num1 + " " + operator + " " + num2 + " = ";
     document.getElementById("equation").innerText = equation;
 
     switch (operator){
